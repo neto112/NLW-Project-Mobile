@@ -1,5 +1,13 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  container: {}
+  container: {
+    alignItems: 'center',
+  },
+  options: {
+    width: '100%',
+    marginBottom: 48,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  }
 });
