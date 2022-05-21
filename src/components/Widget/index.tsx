@@ -27,8 +27,9 @@ function Widget() {
       <BottomSheet 
       ref={bottomSheetRef} 
       snapPoints={[1, 280]}
-      backgroundStyle={styles.modal}>
-        <Options />
+      backgroundStyle={styles.modal}
+      handleIndicatorStyle={styles.indicator}>
+        <Form feedbackType="BUG" />
       </BottomSheet>
     </>
   );
